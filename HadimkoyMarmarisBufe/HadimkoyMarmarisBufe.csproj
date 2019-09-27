@@ -88,11 +88,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Global.asax" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\slider\1.jpg" />
+    <Content Include="img\slider\2.jpg" />
+    <Content Include="img\slider\3.jpg" />
+    <Content Include="img\slider\4.jpg" />
+    <Content Include="img\slider\5.jpg" />
+    <Content Include="img\slider\6.jpg" />
+    <Content Include="img\slider\7.jpg" />
+    <Content Include="img\slider\8.jpg" />
+    <Content Include="img\urunler\gozleme.png" />
+    <Content Include="img\urunler\hamburger.png" />
+    <Content Include="img\urunler\icecekler.png" />
+    <Content Include="img\urunler\kahvalti.png" />
+    <Content Include="img\urunler\sandvic.png" />
+    <Content Include="img\urunler\tatlilar.png" />
+    <Content Include="img\urunler\tost.png" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <Content Include="Web.config" />
+    <Content Include="Views\Site\Urunlerimiz.cshtml" />
+    <Content Include="Views\Site\Neredeyiz.cshtml" />
+    <Content Include="Views\Site\Iletisim.cshtml" />
+    <Content Include="Views\Site\Hakkimizda.cshtml" />
+    <Content Include="Views\Site\Menulerimiz.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\SiteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -100,7 +137,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
     <None Include="packages.config" />
+    <Content Include="Views\_LayoutPage.cshtml" />
+    <Content Include="Views\Site\Index.cshtml" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -110,7 +161,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="img\menuler\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

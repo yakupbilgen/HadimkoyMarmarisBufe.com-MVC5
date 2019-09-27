@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "Iletisim";
+    Layout = "~/Views/_LayoutPage.cshtml";
+}
+
+<div class="col-md-12">
+    <h1 class="text-center">İletişim</h1>
+    <div class="col-md-12 float-left d-block">
+        <div class="col-md-5 float-left text-center">
+            <h3> <br />
+                <p>Sizlere daha iyi hizmet vermek için varız.</p>
+                <p>Sizler adına neler yapabileceğimizi bizimle paylaşın!</p>
+            </h3>
+        </div>
+        <div class="col-md-6 float-right">
+            <form>
+                <div class="form-group">
+                    <div class="row m-2">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Adınız" required="" name="ad" />
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Soyadınız" required="" name="soyad" />
+                        </div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Mail" required="" name="email" />
+                        </div>
+                    </div>
+                    @*<div class="row m-2">
+                        @Html.DropDownList(
+                       "İletişim",
+                       new[]
+                       {
+                           new SelectListItem() {Value="1",Text="Memnuniyet"},
+                           new SelectListItem() {Value="2",Text="Öneri"},
+                           new SelectListItem() {Value="2",Text="Şikayet"}
+                       },
+                       "İletişim türü",
+                       new {@class= "form-control" }
+                       )
+                    </div>*@
+
+                    <div class="row m-2">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Konu" required="" name="konu" />
+                        </div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="col">
+                            <textarea class="form-control" rows="5" placeholder="Mesajınız" required="" name="mesaj"></textarea>
+                        </div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="col">
+                            <input type="submit" class="btn btn-primary rounded-0 float-right" placeholder="Gönder" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
